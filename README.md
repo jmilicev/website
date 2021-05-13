@@ -1,5 +1,13 @@
 # express-website
 
+using nodejs 
+- nodemon
+- express
+- passport
+- bcrypt
+- flash
+- session
+
  express website with multiple functions and pages
 
  currently in development

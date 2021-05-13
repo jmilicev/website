@@ -1,1 +1,21 @@
-<h1>test <%= name %> </h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  
+    <title>Home</title>
+    <meta name="description" content="express webpage">
+    <meta name="author" content="Jovan Milicev">
+  
+    <link rel="stylesheet" href="css/home.css">
+  
+</head>
+
+<body>
+    <h1 id="homeheader">Hello <%= name %> </h1><hr>
+    <form action="/logout?_method=DELETE" method="POST">
+    <button id="logoutbutton" type="submit">Log Out</button>
+    </form>
+</body>
+

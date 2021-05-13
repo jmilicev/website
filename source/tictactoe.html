@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Online Tic-Tac-Toe</title>
+  <meta name="description" content="express webpage">
+  <meta name="author" content="Jovan Milicev">
+
+  <link rel="stylesheet" href="css/ttt.css">
+
+</head>
+
+<body>
+
+  <h1> Online Tic-Tac-Toe </h1>
+
+  <div class="direct-buttons">
+
+      <button id="home" onclick="redirect('home')">Home</button>
+      <button id="ttt" onclick="redirect('ttt')">Play Tic Tac Toe</button>
+      <button id="login" onclick="redirect('login')">Login</button>
+
+  </div>
+
+    <div class = "ttt">
+
+        <h2 id="status"> Welcome to Tic Tac Toe! </h2>
+
+        <button id="0" onclick="clicked(0)" class="gamebuttons"></button>
+        <button id="1" onclick="clicked(1)" class="gamebuttons"></button>
+        <button id="2" onclick="clicked(2)" class="gamebuttons"></button>
+        <br>
+        <button id="3" onclick="clicked(3)" class="gamebuttons"></button>
+        <button id="4" onclick="clicked(4)" class="gamebuttons"></button>
+        <button id="5" onclick="clicked(5)" class="gamebuttons"></button>
+        <br>
+        <button id="6" onclick="clicked(6)" class="gamebuttons"></button>
+        <button id="7" onclick="clicked(7)" class="gamebuttons"></button>
+        <button id="8" onclick="clicked(8)" class="gamebuttons"></button>
+        <br><br>
+        <button id="reset" onclick="reset()"> Reset </button>
+
+    </div>
+
+  <script src="js/tttscript.js"></script>
+</body>
+</html>

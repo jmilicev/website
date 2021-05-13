@@ -1,0 +1,36 @@
+body{
+    background-color: #323336;
+}
+
+body h1{
+    color:white;
+    text-align: center;
+}
+body h2{
+    color:white;
+    text-align: center;
+}
+
+div.direct-buttons{
+    text-align: center;
+}
+
+div.ttt{
+    color:white;
+    text-align: center;
+    
+}
+
+button.gamebuttons{
+    color:black;
+    background-color: white;
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+#reset{
+    background-color:white;
+    color: black;
+    min-height: 2ch;
+    min-width: 25ch;
+}
